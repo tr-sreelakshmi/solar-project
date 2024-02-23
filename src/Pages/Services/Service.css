@@ -1,0 +1,141 @@
+.heading{
+    text-align: center;   
+    padding: 5px;
+}   
+
+.service-head{
+    margin-top: 70px;
+}
+.heading h1{
+    font-weight:800;
+    font-size: 50px;
+    background-image: url(../../Assets/heading.jpg);       
+background-size: cover;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+.heading p{
+    text-align: left;
+    font-weight:500;
+    font-size: 20px;
+color: dodgerblue;
+}
+
+.service-head h5 , h1{
+    text-align: center;
+}
+
+.card-wraps{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.boxes{
+    background-color: rgb(241, 252, 248);
+    width: 360px;
+    height: 640px;
+    border-radius: 5px;
+    padding: 15px;  
+    box-shadow: 1px 1px 10px 1px rgb(226, 226, 246);
+}
+
+.icon-head{display: flex;
+gap: 1.5rem;}
+.icon-head i{
+    font-size: 30px;
+    width: 60px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: -25px;
+    margin-left: 10px;
+    background-color: rgb(31, 31, 144);
+    color: white;
+}
+    .icon-head i:hover{
+        cursor:pointer;
+        color:rgb(31, 31, 144);
+        background-color: white;
+        border: 3.5px solid   rgb(31, 31, 144);}
+
+    
+    
+
+.box-content h3{
+ margin-top: 5px;
+}
+
+.box-content h3 ,p{
+    text-align: left;
+}
+
+
+.feature{
+    display: flex;
+    justify-content: space-between;
+gap: 5rem;
+}
+
+.featurecontent{
+    width: 50%;
+    text-align: left;
+}
+
+.featurecontent h1{
+    text-align: left;
+}
+
+.featureimage{
+    width: 50%;
+}
+
+
+.feat-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;margin: 50px;
+}
+
+.icon-flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.icon-view{
+    display: flex;
+}
+
+.icon-box{
+    padding: 10px;
+    justify-content: center;
+}
+
+.icon-box i{
+font-size: 35px;
+width: 60px;
+    height: 55px;
+    background-color: rgb(62, 62, 200);
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.icon-cont{gap: 0.5rem;}
+.icon-cont h5{
+font-weight: 600;
+
+}
+.icon-cont p{
+
+    font-weight: 400;
+}

@@ -1,0 +1,71 @@
+.contact-wrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.heading{
+    margin-top: 40px;
+}
+
+.form-page{
+  
+    width: 50%;
+    padding: 30px 50px 30px 50px;
+    text-align: left;
+}
+
+.form-page h2{
+    font-size: 40px;
+  
+}
+
+.form-box{
+    margin: 10px;
+    gap: 0.5rem;
+}
+
+.input-1{
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.input-1 input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(225, 220, 220);
+}
+
+.input-2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-2 input{
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(225, 220, 220);
+}
+
+
+textarea{
+    border-radius: 5px;
+    border: 2px solid rgb(225, 220, 220);
+
+}
+
+.button-btn{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.button-btn button{
+    padding: 7px 20px;
+
+}

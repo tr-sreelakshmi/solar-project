@@ -1,0 +1,77 @@
+.main-1{
+display:flex;
+justify-content: space-between;
+background-color: rgb(13, 13, 105);
+padding: 2px;
+}
+.head-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 0.75rem;
+}
+
+.p-number{
+    display: flex;
+   justify-content: space-around; 
+   gap: 0.5rem;
+}
+
+i{
+    font-size: 18px;
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+
+.p-head{
+    color: white ;
+}
+.icons{
+    display: flex;
+    justify-content: space-around; 
+    gap: 1.2rem;
+
+}
+
+.icons i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.main-2{
+    background-color: rgb(246, 247, 247);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.nav-list{
+    list-style: none;
+    display: flex;
+  gap: 2.5rem;
+}
+
+.nav-list li{
+    font-weight: 600;
+    color:  rgb(13, 13, 105);
+   
+}
+
+.nav-list li{
+    text-decoration: underline;
+    text-decoration-color: rgb(246, 247, 247);
+    font-weight: bold;
+}
+
+
+li:hover{
+
+cursor: pointer;
+text-shadow: 2px 2px 3px  rgb(13, 13, 105);
+}

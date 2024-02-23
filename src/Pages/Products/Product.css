@@ -1,0 +1,91 @@
+.product-view{display: flex;
+flex-direction: column;
+}
+
+.product-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+
+.products-box{
+    width: 370px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+}
+
+.products-box:hover{
+    background-color: rgb(182, 218, 253);
+    height: 450px;
+}
+.products-box p{
+    font-weight: 600px;
+}
+/* .products-box2{
+    background-image: url( '../../Assets/wind.jpg'   );
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+} 
+ .products-box3{
+    background-image: url( '../../Assets/hydrop.jpg'   );
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+} 
+.products-box4{
+    background-image: url( '../../Assets/battry.jpg'   );
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+}
+.products-box5{ 
+    background-image: url( '../../Assets/inveter.jpg'   );
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+}
+*/
+.butn {
+    background-color:  rgb(182, 218, 253);
+    opacity: transparent;
+    color: rgb(8, 8, 97);
+    border: none;
+    border-radius: 10px;
+    padding: 8px;
+    
+    
+}
+
+.butn:hover{
+    background-color: rgb(182, 218, 253);
+   
+}
+.butn i{
+    color: rgb(8, 8, 97);
+}

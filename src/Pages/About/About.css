@@ -1,0 +1,119 @@
+.heading{
+    text-align: center;   
+    padding: 5px;
+}   
+
+.heading h1{
+    font-weight:800;
+    font-size: 50px;
+    background-image: url(../../Assets/heading.jpg);       
+background-size: cover;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+}
+.heading p{
+    text-align: left;
+    font-weight:500;
+    font-size: 20px;
+color: dodgerblue;
+}
+
+.box-wrap{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.boxs{
+  
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgb(172, 172, 247);
+}
+
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.abt-photo{
+    padding: 20px;
+}
+
+.abt-content{
+    padding: 50px;
+}
+
+.abt-content h4{
+    font-size: 40px;
+}
+
+.abt-content p{
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(31, 31, 144);
+    color: white;
+    font-weight: bold;
+    padding: 7px 12px;
+    border-radius: 5px rgb(31, 31, 144) ;
+}
+
+button:hover{
+    cursor:pointer;
+    color:rgb(31, 31, 144);
+    background-color: white;
+}
+
+.team h2{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.card-wrap{
+    margin-top: 50px;
+justify-content: space-around;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.card{
+    height: 430px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px 1px rgb(226, 226, 246);
+
+}
+
+.card img{  border-radius: 5px ;}
+
+.card h5, p{
+    text-align: center;
+}
+
+.btn-icon{
+    border-radius: 50%;
+   
+}
+.foot-add{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+.btn-icon i{
+    color: white;
+}
+.btn-icon:hover{
+    background-color: rgb(5, 5, 124);
+}  
+
+.ic-box{
+    display: flex;
+    gap: 0.5rem;
+}
